@@ -1,0 +1,30 @@
+{
+  "commit_sha": "1b767c8830220f55dcd760e94c0dadf597b6eea4",
+  "completed_files": [
+    "jena-arq/src/main/java/org/apache/jena/sparql/sse/SSE.java",
+    "jena-core/src/main/java/org/apache/jena/rdf/model/impl/ModelCom.java",
+    "jena-core/src/test/java/org/apache/jena/rdfxml/arp1tests/TestSuiteException.java",
+    "jena-rdfpatch/src/main/java/org/apache/jena/rdfpatch/system/InitPatch.java"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/apache/jena/lsp/1b767c8830220f55dcd760e94c0dadf597b6eea4",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/1b767c8830220f55dcd760e94c0dadf597b6eea4.nq.gz",
+    "call_sites": 295338,
+    "import_statements": 48989,
+    "call_targets_resolved": 85,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 954,
+    "extends_clauses": 3245,
+    "implements_clauses": 36,
+    "import_modules_denormalized": 97918,
+    "import_symbols_denormalized": 0,
+    "extends_class_denormalized": 0,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 14476
+}
