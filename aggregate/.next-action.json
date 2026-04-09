@@ -1,8 +1,7 @@
 {
-  "next_action": "enrich",
-  "phase_completed": "enrich_checkpoint",
+  "next_action": "combine",
+  "phase_completed": "enrich_skipped",
   "commit_sha": "1b767c8830220f55dcd760e94c0dadf597b6eea4",
-  "ts": "2026-04-09T11:13:52Z",
-  "files_completed": 8,
-  "call_targets_resolved": 214
+  "ts": "2026-04-09T14:52:25Z",
+  "skip_lsp": true
 }
