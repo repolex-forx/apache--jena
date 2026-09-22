@@ -1,0 +1,6 @@
+[2026-09-22T12:17:30Z] === AST ITERATION 3 START | repo=apache/jena sha=1b767c88 ===
+[2026-09-22T12:17:30Z] [iter=3] PHASE START: ast repo=apache/jena sha=1b767c88
+[2026-09-22T12:17:30Z] [iter=3] AST SKIPPED — chunks already exist count=7 dir=/home/runner/work/forx/forx/storage/aggregate/ast/1b767c8830220f55dcd760e94c0dadf597b6eea4
+[2026-09-22T12:17:30Z] [iter=3] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/1b767c8830220f55dcd760e94c0dadf597b6eea4/.complete
+[2026-09-22T12:17:30Z] [iter=3] PHASE END: ast elapsed_s=0 elapsed_min=0.0
+[2026-09-22T12:17:30Z] [iter=3] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
