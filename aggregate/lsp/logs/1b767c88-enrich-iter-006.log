@@ -1,0 +1,17 @@
+[2026-09-24T19:06:39Z] === ENRICH ITERATION 6 START | repo=apache/jena sha=1b767c88 ===
+[2026-09-24T19:06:39Z] [iter=6] PHASE START: enrich repo=apache/jena sha=1b767c88 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/1b767c88-enrich-iter-006.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/1b767c8830220f55dcd760e94c0dadf597b6eea4.nq.gz
+[2026-09-24T19:07:29Z] [iter=6] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-09-24T19:15:01Z] [iter=6] AST store loaded triples=33714940 load_secs=438 mem_mb=1202 MB
+[2026-09-24T19:15:01Z] [iter=6] Step 2: Finding LSP targets mem_mb=1202 MB
+[2026-09-24T19:18:06Z] [iter=6] LSP targets found call_sites=295338 imports=48989 extends=3245 implements=36 secs=185
+[2026-09-24T19:18:14Z] [iter=6] Loaded checkpoint partial graph triples=171371
+[2026-09-24T19:21:00Z] [iter=6] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1202 MB
+[2026-09-24T19:25:12Z] [iter=6] Position index built positions=2236835 nodes_with_types=2904460 secs=252 mem_mb=5640 MB
+[2026-09-24T19:25:12Z] [iter=6] Step 3: Starting LSP resolution mem_mb=5640 MB already_completed_types=[] already_completed_files=23
+[2026-09-24T19:25:12Z] [iter=6] Resolving target type target_type=call_site count=295338
+[2026-09-24T19:26:41Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=20.0 files_done=0 resolved=0 errors=0 current=jena-arq/src/main/java/org/apache/jena/sparql/expr/nodevalue/XSDFuncOp.java
+[2026-09-24T22:24:25Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=197.8 files_done=1 resolved=21 errors=732 current=jena-core/src/main/java/org/apache/jena/ontology/impl/OntClassImpl.java
+[2026-09-24T23:08:09Z] [iter=6] CHECKPOINT TRIGGERED elapsed_min=241.5 files_completed=24 new_files_this_iter=1 mem_mb=5697 MB
+[2026-09-24T23:08:09Z] [iter=6] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/1b767c8830220f55dcd760e94c0dadf597b6eea4.nq.gz triples=173520
+[2026-09-24T23:08:11Z] [iter=6] Checkpoint written, exiting with code 7
+[2026-09-24T23:08:11Z] [iter=6] PHASE END: enrich (checkpointed) elapsed_s=14489 elapsed_min=241.5 files_completed=24
