@@ -1,0 +1,20 @@
+[2026-09-24T12:55:46Z] === ENRICH ITERATION 5 START | repo=apache/jena sha=1b767c88 ===
+[2026-09-24T12:55:46Z] [iter=5] PHASE START: enrich repo=apache/jena sha=1b767c88 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/1b767c88-enrich-iter-005.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/1b767c8830220f55dcd760e94c0dadf597b6eea4.nq.gz
+[2026-09-24T12:56:38Z] [iter=5] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-09-24T13:03:55Z] [iter=5] AST store loaded triples=33714940 load_secs=422 mem_mb=1212 MB
+[2026-09-24T13:03:55Z] [iter=5] Step 2: Finding LSP targets mem_mb=1212 MB
+[2026-09-24T13:06:50Z] [iter=5] LSP targets found call_sites=295338 imports=48989 extends=3245 implements=36 secs=175
+[2026-09-24T13:06:57Z] [iter=5] Loaded checkpoint partial graph triples=167433
+[2026-09-24T13:09:40Z] [iter=5] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1212 MB
+[2026-09-24T13:13:14Z] [iter=5] Position index built positions=2236835 nodes_with_types=2904460 secs=215 mem_mb=5497 MB
+[2026-09-24T13:13:14Z] [iter=5] Step 3: Starting LSP resolution mem_mb=5497 MB already_completed_types=[] already_completed_files=19
+[2026-09-24T13:13:14Z] [iter=5] Resolving target type target_type=call_site count=295338
+[2026-09-24T13:14:39Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=18.9 files_done=0 resolved=0 errors=0 current=jena-arq/src/main/java/org/apache/jena/ext/xerces_regex/RX_Token.java
+[2026-09-24T14:16:07Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=80.3 files_done=1 resolved=1 errors=252 current=jena-arq/src/test/java/org/apache/jena/rdfs/AbstractDatasetGraphCompare.java
+[2026-09-24T14:28:58Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=93.2 files_done=2 resolved=17 errors=304 current=jena-ontapi/src/test/java/org/apache/jena/ontapi/TestModelFactory.java
+[2026-09-24T15:10:34Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=134.8 files_done=3 resolved=17 errors=475 current=jena-examples/src/main/java/tdb2/examples/ExQuadFilter.java
+[2026-09-24T15:16:41Z] [iter=5] HEARTBEAT target_type=call_site elapsed_min=140.9 files_done=4 resolved=22 errors=499 current=jena-arq/src/main/java/org/apache/jena/sparql/expr/nodevalue/XSDFuncOp.java
+[2026-09-24T16:56:02Z] [iter=5] CHECKPOINT TRIGGERED elapsed_min=240.3 files_completed=23 new_files_this_iter=4 mem_mb=5559 MB
+[2026-09-24T16:56:02Z] [iter=5] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/1b767c8830220f55dcd760e94c0dadf597b6eea4.nq.gz triples=171371
+[2026-09-24T16:56:04Z] [iter=5] Checkpoint written, exiting with code 7
+[2026-09-24T16:56:04Z] [iter=5] PHASE END: enrich (checkpointed) elapsed_s=14416 elapsed_min=240.3 files_completed=23

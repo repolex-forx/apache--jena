@@ -1,10 +1,12 @@
 {
   "commit_sha": "1b767c8830220f55dcd760e94c0dadf597b6eea4",
   "completed_files": [
+    "jena-arq/src/main/java/org/apache/jena/ext/xerces_regex/RX_Token.java",
     "jena-arq/src/main/java/org/apache/jena/riot/thrift/TRDF.java",
     "jena-arq/src/main/java/org/apache/jena/riot/thrift/wire/RDF_IRI.java",
     "jena-arq/src/main/java/org/apache/jena/sparql/algebra/OpAsQuery.java",
     "jena-arq/src/main/java/org/apache/jena/sparql/sse/SSE.java",
+    "jena-arq/src/test/java/org/apache/jena/rdfs/AbstractDatasetGraphCompare.java",
     "jena-arq/src/test/java/org/apache/jena/sparql/engine/binding/TestBinding.java",
     "jena-core/src/main/java/org/apache/jena/graph/impl/LiteralLabel.java",
     "jena-core/src/main/java/org/apache/jena/rdf/model/impl/ModelCom.java",
@@ -13,7 +15,9 @@
     "jena-core/src/test/java/org/apache/jena/graph/test/TestRDFStringLiterals.java",
     "jena-core/src/test/java/org/apache/jena/ontology/impl/TestProperty.java",
     "jena-core/src/test/java/org/apache/jena/rdfxml/arp1tests/TestSuiteException.java",
+    "jena-examples/src/main/java/tdb2/examples/ExQuadFilter.java",
     "jena-fuseki2/jena-fuseki-core/src/main/java/org/apache/jena/fuseki/servlets/GSP_RW.java",
+    "jena-ontapi/src/test/java/org/apache/jena/ontapi/TestModelFactory.java",
     "jena-querybuilder/src/main/java/org/apache/jena/arq/querybuilder/UpdateBuilder.java",
     "jena-querybuilder/src/test/java/org/apache/jena/arq/querybuilder/ConvertersTest.java",
     "jena-rdfpatch/src/main/java/org/apache/jena/rdfpatch/system/InitPatch.java",
@@ -27,13 +31,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/1b767c8830220f55dcd760e94c0dadf597b6eea4.nq.gz",
     "call_sites": 295338,
     "import_statements": 48989,
-    "call_targets_resolved": 860,
+    "call_targets_resolved": 908,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 3759,
+    "errors": 4664,
     "extends_clauses": 3245,
     "implements_clauses": 36,
     "import_modules_denormalized": 97918,
@@ -41,5 +45,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14482
+  "elapsed_seconds": 14415
 }
