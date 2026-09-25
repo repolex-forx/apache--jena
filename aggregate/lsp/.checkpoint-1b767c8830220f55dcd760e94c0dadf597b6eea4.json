@@ -8,8 +8,10 @@
     "jena-arq/src/main/java/org/apache/jena/sparql/expr/nodevalue/XSDFuncOp.java",
     "jena-arq/src/main/java/org/apache/jena/sparql/sse/SSE.java",
     "jena-arq/src/test/java/org/apache/jena/rdfs/AbstractDatasetGraphCompare.java",
+    "jena-arq/src/test/java/org/apache/jena/riot/protobuf/TestProtobufTerm.java",
     "jena-arq/src/test/java/org/apache/jena/sparql/engine/binding/TestBinding.java",
     "jena-core/src/main/java/org/apache/jena/graph/impl/LiteralLabel.java",
+    "jena-core/src/main/java/org/apache/jena/ontology/impl/OntClassImpl.java",
     "jena-core/src/main/java/org/apache/jena/rdf/model/impl/ModelCom.java",
     "jena-core/src/main/java/org/apache/jena/util/XML10Char.java",
     "jena-core/src/test/java/org/apache/jena/enhanced/test/TS3_enh.java",
@@ -32,13 +34,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/1b767c8830220f55dcd760e94c0dadf597b6eea4.nq.gz",
     "call_sites": 295338,
     "import_statements": 48989,
-    "call_targets_resolved": 929,
+    "call_targets_resolved": 1026,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 5577,
+    "errors": 6521,
     "extends_clauses": 3245,
     "implements_clauses": 36,
     "import_modules_denormalized": 97918,
@@ -46,5 +48,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14489
+  "elapsed_seconds": 14508
 }

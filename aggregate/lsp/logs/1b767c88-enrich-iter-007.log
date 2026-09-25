@@ -1,0 +1,18 @@
+[2026-09-25T07:11:38Z] === ENRICH ITERATION 7 START | repo=apache/jena sha=1b767c88 ===
+[2026-09-25T07:11:38Z] [iter=7] PHASE START: enrich repo=apache/jena sha=1b767c88 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/1b767c88-enrich-iter-007.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/1b767c8830220f55dcd760e94c0dadf597b6eea4.nq.gz
+[2026-09-25T07:12:24Z] [iter=7] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-09-25T07:19:57Z] [iter=7] AST store loaded triples=33714940 load_secs=438 mem_mb=1201 MB
+[2026-09-25T07:19:57Z] [iter=7] Step 2: Finding LSP targets mem_mb=1201 MB
+[2026-09-25T07:23:00Z] [iter=7] LSP targets found call_sites=295338 imports=48989 extends=3245 implements=36 secs=183
+[2026-09-25T07:23:08Z] [iter=7] Loaded checkpoint partial graph triples=173520
+[2026-09-25T07:25:47Z] [iter=7] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1201 MB
+[2026-09-25T07:29:49Z] [iter=7] Position index built positions=2236835 nodes_with_types=2904460 secs=242 mem_mb=5686 MB
+[2026-09-25T07:29:49Z] [iter=7] Step 3: Starting LSP resolution mem_mb=5686 MB already_completed_types=[] already_completed_files=24
+[2026-09-25T07:29:49Z] [iter=7] Resolving target type target_type=call_site count=295338
+[2026-09-25T07:31:17Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=19.6 files_done=0 resolved=0 errors=0 current=jena-core/src/main/java/org/apache/jena/ontology/impl/OntClassImpl.java
+[2026-09-25T08:43:20Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=91.7 files_done=1 resolved=0 errors=306 current=jena-arq/src/test/java/org/apache/jena/riot/protobuf/TestProtobufTerm.java
+[2026-09-25T09:40:04Z] [iter=7] HEARTBEAT target_type=call_site elapsed_min=148.4 files_done=2 resolved=95 errors=548 current=jena-arq/src/main/java/org/apache/jena/sparql/lang/sparql_12/javacc/SPARQLParser12TokenManager.java
+[2026-09-25T11:13:27Z] [iter=7] CHECKPOINT TRIGGERED elapsed_min=241.8 files_completed=26 new_files_this_iter=2 mem_mb=5747 MB
+[2026-09-25T11:13:27Z] [iter=7] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/1b767c8830220f55dcd760e94c0dadf597b6eea4.nq.gz triples=177031
+[2026-09-25T11:13:29Z] [iter=7] Checkpoint written, exiting with code 7
+[2026-09-25T11:13:29Z] [iter=7] PHASE END: enrich (checkpointed) elapsed_s=14509 elapsed_min=241.8 files_completed=26
