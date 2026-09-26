@@ -43,7 +43,7 @@
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 7456,
+    "errors": 8623,
     "extends_clauses": 3245,
     "implements_clauses": 36,
     "import_modules_denormalized": 97918,
@@ -51,5 +51,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14510
+  "elapsed_seconds": 14499
 }

@@ -1,0 +1,16 @@
+[2026-09-26T00:32:42Z] === ENRICH ITERATION 9 START | repo=apache/jena sha=1b767c88 ===
+[2026-09-26T00:32:42Z] [iter=9] PHASE START: enrich repo=apache/jena sha=1b767c88 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/1b767c88-enrich-iter-009.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/1b767c8830220f55dcd760e94c0dadf597b6eea4.nq.gz
+[2026-09-26T00:33:32Z] [iter=9] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-09-26T00:43:47Z] [iter=9] AST store loaded triples=33714940 load_secs=603 mem_mb=1221 MB
+[2026-09-26T00:43:47Z] [iter=9] Step 2: Finding LSP targets mem_mb=1221 MB
+[2026-09-26T00:46:10Z] [iter=9] LSP targets found call_sites=295338 imports=48989 extends=3245 implements=36 secs=144
+[2026-09-26T00:46:16Z] [iter=9] Loaded checkpoint partial graph triples=179244
+[2026-09-26T00:48:26Z] [iter=9] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1221 MB
+[2026-09-26T00:51:13Z] [iter=9] Position index built positions=2236835 nodes_with_types=2904460 secs=167 mem_mb=5752 MB
+[2026-09-26T00:51:13Z] [iter=9] Step 3: Starting LSP resolution mem_mb=5752 MB already_completed_types=[] already_completed_files=29
+[2026-09-26T00:51:13Z] [iter=9] Resolving target type target_type=call_site count=295338
+[2026-09-26T00:52:31Z] [iter=9] HEARTBEAT target_type=call_site elapsed_min=19.8 files_done=0 resolved=0 errors=0 current=jena-arq/src/main/java/org/apache/jena/sparql/lang/arq/javacc/ARQParser.java
+[2026-09-26T04:34:22Z] [iter=9] CHECKPOINT TRIGGERED elapsed_min=241.7 files_completed=29 new_files_this_iter=0 mem_mb=5785 MB
+[2026-09-26T04:34:22Z] [iter=9] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/1b767c8830220f55dcd760e94c0dadf597b6eea4.nq.gz triples=183186
+[2026-09-26T04:34:24Z] [iter=9] Checkpoint written, exiting with code 7
+[2026-09-26T04:34:24Z] [iter=9] PHASE END: enrich (checkpointed) elapsed_s=14499 elapsed_min=241.7 files_completed=29
